@@ -82,7 +82,7 @@ export default defineConfig({
     ['json', { outputFile: 'test-results/results.json' }],
   ],
   use: {
-    baseURL: 'https://test.admin.migelab.com',
+    baseURL: 'https://admin.&&&&.com',
     actionTimeout: 30000,
     navigationTimeout: 60000,
     expect: {
@@ -107,7 +107,7 @@ export default defineConfig({
 
 ```json
 {
-  "name": "mige-vue-master",
+  "name": "******",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -179,7 +179,7 @@ npx playwright test tests/generated/login.spec.ts --debug
 测试脚本默认使用以下账号：
 
 - 用户名：`ZHUJY`
-- 密码：`123456`
+- 密码：`******`
 
 如需修改，可通过环境变量设置：
 
